@@ -19,4 +19,4 @@ RUN python3 -m pip install pyOpenSSL
 
 COPY . .
 
-CMD [ "python", ".homecontroller.py" ]
+CMD [ "python", "homecontroller.py" ]
