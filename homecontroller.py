@@ -16,9 +16,11 @@ start_new_thread(recv_data, (client_socket,))
 print(">>> Connect Server")
 
 while True:
+    """
     message = input()
     if message == 'quit':
         close_data = message
         break
+    """
     client_socket.send(message.encode())
 client_socket.close()
